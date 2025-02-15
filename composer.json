@@ -28,6 +28,10 @@
       "type": "composer",
       "url": "https://wpackagist.org",
       "only": ["wpackagist-plugin/*", "wpackagist-theme/*"]
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:vannamhh/learn-my-private-plugin.git"
     }
   ],
   "require": {
@@ -42,7 +46,8 @@
     "roots/wp-password-bcrypt": "1.2.0",
     "wpackagist-theme/twentytwentyfive": "^1.0",
     "wpackagist-plugin/seo-by-rank-math": "^1.0",
-    "wpackagist-plugin/all-in-one-wp-security-and-firewall": "^5.3"
+    "wpackagist-plugin/all-in-one-wp-security-and-firewall": "^5.3",
+    "vannamhh/learn-my-private-plugin": "1.0.2"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",
